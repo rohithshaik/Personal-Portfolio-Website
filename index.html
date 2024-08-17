@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello! I'm Steve Smith, a passionate web developer.</p>
+            <a href="#contact" class="cta-button">Contact Me</a>
+        </section>
+    </header>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a web developer with a background in Computer Science, recently graduated with a focus on web development. I have experience in building dynamic and responsive websites using modern web technologies.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <h3>HTML</h3>
+            <div class="skill-bar" style="width: 90%;"></div>
+        </div>
+        <div class="skill">
+            <h3>CSS</h3>
+            <div class="skill-bar" style="width: 85%;"></div>
+        </div>
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <div class="skill-bar" style="width: 80%;"></div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Local Business Revamp</h3>
+            <p>Description: A dynamic website developed for a local business to enhance their online presence. Implemented using HTML, CSS, and JavaScript.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Task Manager Pro</h3>
+            <p>Description: An interactive web application for managing tasks and to-do lists, featuring user authentication and data persistence.</p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you want to get in touch, feel free to <a href="mailto:youremail@example.com">email me</a> or fill out the form below:</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 RS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
